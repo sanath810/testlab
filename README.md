@@ -1,8 +1,8 @@
 # TestLab
 
-Statement 1: Using any IaC (Terraform/ARM/CFT) create the same infra which is depicted
-above. In this you also need to use the userdata to install the Jenkins and
-Ansible/Chef/Puppet/etc. 
+Using Terraform, create the following infra (Jenkins+Ansible, VPC and App Server).
+In this we need to use the userdata to install the Jenkins and
+Ansible/Chef/Puppet/etc.
 
 The above Terraform scripts will create infra on AWS
   - The provider.tf has credentials & region information.
